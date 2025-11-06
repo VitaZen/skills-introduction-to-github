@@ -15,7 +15,6 @@ Usage:
 """
 
 import json
-import re
 import argparse
 from typing import List, Dict, Any
 from dataclasses import dataclass, field
@@ -43,7 +42,7 @@ class SlideContent:
     equations: List[str] = field(default_factory=list)
     tables: List[Dict[str, Any]] = field(default_factory=list)
     key_terms: List[Dict[str, str]] = field(default_factory=list)
-    graphs: List[str] = field(default_factory=list)
+    graphs: List[Dict[str, str]] = field(default_factory=list)
     examples: List[str] = field(default_factory=list)
 
 
