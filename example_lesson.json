@@ -1,0 +1,275 @@
+{
+  "lesson_title": "Introduction to Calculus - Derivatives",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "What is a Derivative?",
+      "content": [
+        {
+          "type": "text",
+          "value": "A derivative represents the rate of change of a function with respect to a variable"
+        },
+        {
+          "type": "text",
+          "value": "The derivative is the slope of the tangent line to a curve at a given point"
+        },
+        {
+          "type": "key_term",
+          "term": "Derivative",
+          "definition": "The instantaneous rate of change of a function at a point"
+        },
+        {
+          "type": "formula",
+          "value": "f'(x) = lim(h→0) [f(x+h) - f(x)] / h"
+        }
+      ]
+    },
+    {
+      "slide_number": 2,
+      "title": "Basic Derivative Rules",
+      "content": [
+        {
+          "type": "text",
+          "value": "There are several fundamental rules for computing derivatives"
+        },
+        {
+          "type": "formula",
+          "value": "Power Rule: d/dx(x^n) = nx^(n-1)"
+        },
+        {
+          "type": "formula",
+          "value": "Constant Rule: d/dx(c) = 0"
+        },
+        {
+          "type": "formula",
+          "value": "Sum Rule: d/dx[f(x) + g(x)] = f'(x) + g'(x)"
+        },
+        {
+          "type": "example",
+          "value": "Find the derivative of f(x) = x³: Using power rule, f'(x) = 3x²"
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "title": "Common Derivatives",
+      "content": [
+        {
+          "type": "text",
+          "value": "Memorizing common derivatives helps solve problems quickly"
+        },
+        {
+          "type": "table",
+          "headers": ["Function", "Derivative"],
+          "rows": [
+            ["sin(x)", "cos(x)"],
+            ["cos(x)", "-sin(x)"],
+            ["e^x", "e^x"],
+            ["ln(x)", "1/x"]
+          ]
+        },
+        {
+          "type": "key_term",
+          "term": "Trigonometric Derivatives",
+          "definition": "Derivatives of sine, cosine, tangent and other trigonometric functions"
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "title": "The Chain Rule",
+      "content": [
+        {
+          "type": "text",
+          "value": "The chain rule is used to find derivatives of composite functions"
+        },
+        {
+          "type": "formula",
+          "value": "d/dx[f(g(x))] = f'(g(x)) × g'(x)"
+        },
+        {
+          "type": "example",
+          "value": "Find derivative of sin(x²): d/dx[sin(x²)] = cos(x²) × 2x = 2x·cos(x²)"
+        },
+        {
+          "type": "key_term",
+          "term": "Composite Function",
+          "definition": "A function formed by combining two or more functions, where the output of one function becomes the input of another"
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "title": "The Product Rule",
+      "content": [
+        {
+          "type": "text",
+          "value": "When differentiating a product of two functions, use the product rule"
+        },
+        {
+          "type": "formula",
+          "value": "d/dx[f(x)·g(x)] = f'(x)·g(x) + f(x)·g'(x)"
+        },
+        {
+          "type": "example",
+          "value": "Derivative of x·sin(x): (1)·sin(x) + x·cos(x) = sin(x) + x·cos(x)"
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "title": "The Quotient Rule",
+      "content": [
+        {
+          "type": "text",
+          "value": "The quotient rule is used for derivatives of quotients"
+        },
+        {
+          "type": "formula",
+          "value": "d/dx[f(x)/g(x)] = [f'(x)·g(x) - f(x)·g'(x)] / [g(x)]²"
+        },
+        {
+          "type": "example",
+          "value": "Derivative of x/sin(x): [sin(x) - x·cos(x)] / sin²(x)"
+        }
+      ]
+    },
+    {
+      "slide_number": 7,
+      "title": "Higher Order Derivatives",
+      "content": [
+        {
+          "type": "text",
+          "value": "We can take derivatives of derivatives to get higher order derivatives"
+        },
+        {
+          "type": "text",
+          "value": "The second derivative represents the rate of change of the rate of change"
+        },
+        {
+          "type": "equation",
+          "value": "f''(x) = d²f/dx² = d/dx[f'(x)]"
+        },
+        {
+          "type": "key_term",
+          "term": "Second Derivative",
+          "definition": "The derivative of the first derivative; represents acceleration when the function represents position"
+        },
+        {
+          "type": "example",
+          "value": "If f(x) = x³, then f'(x) = 3x² and f''(x) = 6x"
+        }
+      ]
+    },
+    {
+      "slide_number": 8,
+      "title": "Implicit Differentiation",
+      "content": [
+        {
+          "type": "text",
+          "value": "Implicit differentiation is used when y cannot be easily solved for explicitly"
+        },
+        {
+          "type": "text",
+          "value": "Differentiate both sides with respect to x, treating y as a function of x"
+        },
+        {
+          "type": "example",
+          "value": "For x² + y² = 25, differentiate to get: 2x + 2y(dy/dx) = 0, so dy/dx = -x/y"
+        }
+      ]
+    },
+    {
+      "slide_number": 9,
+      "title": "Applications: Rates of Change",
+      "content": [
+        {
+          "type": "text",
+          "value": "Derivatives are used to analyze rates of change in real-world problems"
+        },
+        {
+          "type": "text",
+          "value": "Common applications include velocity, acceleration, and optimization"
+        },
+        {
+          "type": "table",
+          "headers": ["Concept", "Derivative Represents"],
+          "rows": [
+            ["Position → Velocity", "First derivative of position"],
+            ["Velocity → Acceleration", "Second derivative of position"],
+            ["Revenue → Marginal Revenue", "Rate of revenue change"]
+          ]
+        }
+      ]
+    },
+    {
+      "slide_number": 10,
+      "title": "Critical Points and Extrema",
+      "content": [
+        {
+          "type": "text",
+          "value": "Critical points occur where the derivative is zero or undefined"
+        },
+        {
+          "type": "formula",
+          "value": "f'(c) = 0 or f'(c) is undefined"
+        },
+        {
+          "type": "key_term",
+          "term": "Local Maximum",
+          "definition": "A point where the function value is greater than all nearby points"
+        },
+        {
+          "type": "key_term",
+          "term": "Local Minimum",
+          "definition": "A point where the function value is less than all nearby points"
+        },
+        {
+          "type": "graph",
+          "description": "Graph showing local maxima and minima at critical points",
+          "image_path": "images/critical-points-graph.png"
+        }
+      ]
+    },
+    {
+      "slide_number": 11,
+      "title": "The Mean Value Theorem",
+      "content": [
+        {
+          "type": "text",
+          "value": "The Mean Value Theorem states that for a continuous and differentiable function on [a,b], there exists a point c where the instantaneous rate equals the average rate"
+        },
+        {
+          "type": "formula",
+          "value": "f'(c) = [f(b) - f(a)] / (b - a)"
+        },
+        {
+          "type": "text",
+          "value": "This theorem connects the average rate of change with the instantaneous rate"
+        }
+      ]
+    },
+    {
+      "slide_number": 12,
+      "title": "Summary and Key Takeaways",
+      "content": [
+        {
+          "type": "text",
+          "value": "Derivatives measure instantaneous rates of change"
+        },
+        {
+          "type": "text",
+          "value": "Master the basic rules: power, product, quotient, and chain rules"
+        },
+        {
+          "type": "text",
+          "value": "Applications include optimization, motion analysis, and curve sketching"
+        },
+        {
+          "type": "text",
+          "value": "Practice is essential for building proficiency with derivative calculations"
+        }
+      ]
+    }
+  ]
+}
