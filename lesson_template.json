@@ -1,0 +1,155 @@
+{
+  "lesson_title": "Your Lesson Title Here",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Introduction",
+      "content": [
+        {
+          "type": "text",
+          "value": "Add your introductory text here"
+        },
+        {
+          "type": "key_term",
+          "term": "Important Term",
+          "definition": "Definition of the term"
+        }
+      ]
+    },
+    {
+      "slide_number": 2,
+      "title": "Main Concept",
+      "content": [
+        {
+          "type": "text",
+          "value": "Explanation of the main concept"
+        },
+        {
+          "type": "formula",
+          "value": "your_formula_here"
+        },
+        {
+          "type": "example",
+          "value": "Example demonstrating the concept"
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "title": "Data and Tables",
+      "content": [
+        {
+          "type": "text",
+          "value": "Description of the data"
+        },
+        {
+          "type": "table",
+          "headers": ["Column 1", "Column 2", "Column 3"],
+          "rows": [
+            ["Row 1, Cell 1", "Row 1, Cell 2", "Row 1, Cell 3"],
+            ["Row 2, Cell 1", "Row 2, Cell 2", "Row 2, Cell 3"]
+          ]
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "title": "Visualizations",
+      "content": [
+        {
+          "type": "text",
+          "value": "Explanation of the visualization"
+        },
+        {
+          "type": "graph",
+          "description": "Description of what the graph shows",
+          "image_path": "path/to/your/image.png"
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "title": "Equations and Derivations",
+      "content": [
+        {
+          "type": "text",
+          "value": "Context for the equation"
+        },
+        {
+          "type": "equation",
+          "value": "your_equation = here"
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "title": "Slide 6",
+      "content": [
+        {
+          "type": "text",
+          "value": "Content for slide 6"
+        }
+      ]
+    },
+    {
+      "slide_number": 7,
+      "title": "Slide 7",
+      "content": [
+        {
+          "type": "text",
+          "value": "Content for slide 7"
+        }
+      ]
+    },
+    {
+      "slide_number": 8,
+      "title": "Slide 8",
+      "content": [
+        {
+          "type": "text",
+          "value": "Content for slide 8"
+        }
+      ]
+    },
+    {
+      "slide_number": 9,
+      "title": "Slide 9",
+      "content": [
+        {
+          "type": "text",
+          "value": "Content for slide 9"
+        }
+      ]
+    },
+    {
+      "slide_number": 10,
+      "title": "Slide 10",
+      "content": [
+        {
+          "type": "text",
+          "value": "Content for slide 10"
+        }
+      ]
+    },
+    {
+      "slide_number": 11,
+      "title": "Slide 11",
+      "content": [
+        {
+          "type": "text",
+          "value": "Content for slide 11"
+        }
+      ]
+    },
+    {
+      "slide_number": 12,
+      "title": "Summary",
+      "content": [
+        {
+          "type": "text",
+          "value": "Summary and key takeaways"
+        }
+      ]
+    }
+  ]
+}
